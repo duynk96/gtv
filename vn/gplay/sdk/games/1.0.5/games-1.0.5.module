@@ -1,0 +1,222 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "vn.gplay.sdk",
+    "module": "games",
+    "version": "1.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "games-1.0.5.aar",
+          "url": "games-1.0.5.aar",
+          "size": 134921,
+          "sha512": "554c873a0cb11711a99fde244ba39e8125e21d298ff525ebab79b87c41471065e5dca21b48d4c88907500bdadcd9e2b73f7f9e1ab8de687d8a131ec3e26bd0e0",
+          "sha256": "7d985a2d438f4d33f5911978a1c7bf780f0ae9cea30f424b2c61e213499d4566",
+          "sha1": "d5a148123d1a22bde24164f24ae8634050391e23",
+          "md5": "715140978645c7cf88af23b8234c4977"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-auth",
+          "version": {
+            "requires": "21.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads",
+          "version": {
+            "requires": "22.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.android.billingclient",
+          "module": "billing-ktx",
+          "version": {
+            "requires": "8.0.0"
+          }
+        },
+        {
+          "group": "com.adjust.sdk",
+          "module": "adjust-android",
+          "version": {
+            "requires": "4.33.0"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-bom",
+          "version": {
+            "requires": "32.2.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-messaging"
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-auth"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-script-runtime"
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-splashscreen",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-script-runtime",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "games-1.0.5.aar",
+          "url": "games-1.0.5.aar",
+          "size": 134921,
+          "sha512": "554c873a0cb11711a99fde244ba39e8125e21d298ff525ebab79b87c41471065e5dca21b48d4c88907500bdadcd9e2b73f7f9e1ab8de687d8a131ec3e26bd0e0",
+          "sha256": "7d985a2d438f4d33f5911978a1c7bf780f0ae9cea30f424b2c61e213499d4566",
+          "sha1": "d5a148123d1a22bde24164f24ae8634050391e23",
+          "md5": "715140978645c7cf88af23b8234c4977"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "games-1.0.5-sources.jar",
+          "url": "games-1.0.5-sources.jar",
+          "size": 17308,
+          "sha512": "507d6afb68defdb52d80eea9a85eb2992d9dd060945ccec05cd560c0020534d0a04c77ee4ea7ec64658e0f4a69e1f627c6979940223f6d664d44be0543d565d6",
+          "sha256": "fdb2634bdc5dd48a5d1063bb2872a2685e8b9124eaff1f7419886cd086b12853",
+          "sha1": "7d1af2b48b2a178c50ea99986bed271bec9c4b5c",
+          "md5": "24498eb91a51290e77b54562c19bc3ab"
+        }
+      ]
+    }
+  ]
+}
