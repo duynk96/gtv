@@ -44,7 +44,7 @@
           "url": "games-0.1.0.aar",
           "size": 57145,
           "sha512": "90207caf4e3d80bb3114b5d4aaa02e63732e4114e78cf24a170e5eca41e03c68f6870a5328632bcd827aa7f1acd2e869df24d6c877177e02734b78fcd631af65",
-          "sha256": "6d5737ed5c08b43ce7c5ea360f8e5fc78d4b94cd83dea95b4ab0e7a52a5aaba4",
+          "vn.gplay.sdk.jsbridge.sha256": "6d5737ed5c08b43ce7c5ea360f8e5fc78d4b94cd83dea95b4ab0e7a52a5aaba4",
           "sha1": "24e82add7e9edbd717328acef8a76f7b4e0c8785",
           "md5": "7a955bb62edd92a2eabd988cb642d25e"
         }
@@ -171,7 +171,7 @@
           "url": "games-0.1.0.aar",
           "size": 57145,
           "sha512": "90207caf4e3d80bb3114b5d4aaa02e63732e4114e78cf24a170e5eca41e03c68f6870a5328632bcd827aa7f1acd2e869df24d6c877177e02734b78fcd631af65",
-          "sha256": "6d5737ed5c08b43ce7c5ea360f8e5fc78d4b94cd83dea95b4ab0e7a52a5aaba4",
+          "vn.gplay.sdk.jsbridge.sha256": "6d5737ed5c08b43ce7c5ea360f8e5fc78d4b94cd83dea95b4ab0e7a52a5aaba4",
           "sha1": "24e82add7e9edbd717328acef8a76f7b4e0c8785",
           "md5": "7a955bb62edd92a2eabd988cb642d25e"
         }
@@ -194,7 +194,7 @@
           "url": "games-0.1.0-sources.jar",
           "size": 13599,
           "sha512": "3b1eefaf5521b5b4af8203b954719c2b97024f1cba57cce0fbf713ba00df0b72078d9b38e3b8105d483cd27d5c0fd11a2c12d385a67fd299ecbe03dbedaf5f79",
-          "sha256": "d0e052375682ed4f62a71aa373965e8f57d71c5b6f0af99b0035e423b70b8d3b",
+          "vn.gplay.sdk.jsbridge.sha256": "d0e052375682ed4f62a71aa373965e8f57d71c5b6f0af99b0035e423b70b8d3b",
           "sha1": "44ec53f2d804e986ed8634b2c4473fd3c6e831a5",
           "md5": "7b46983f71fd9f8623489f71aec273ee"
         }
