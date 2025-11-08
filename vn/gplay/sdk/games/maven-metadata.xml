@@ -3,11 +3,11 @@
   <groupId>vn.gplay.sdk</groupId>
   <artifactId>games</artifactId>
   <versioning>
-    <latest>1.0.11</latest>
-    <release>1.0.11</release>
+    <latest>1.0.12</latest>
+    <release>1.0.12</release>
     <versions>
-      <version>1.0.11</version>
+      <version>1.0.12</version>
     </versions>
-    <lastUpdated>20251108073950</lastUpdated>
+    <lastUpdated>20251108092054</lastUpdated>
   </versioning>
 </metadata>
