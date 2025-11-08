@@ -1,0 +1,233 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "vn.gplay.sdk",
+    "module": "games",
+    "version": "1.0.11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "games-1.0.11.aar",
+          "url": "games-1.0.11.aar",
+          "size": 308659,
+          "sha512": "044d07bf50c5104663067ff32dd5797faab2af61043f1b6404d174d8ce50d3d0350b7616dce710d6c04ea9933a7e26d5ef9befa6a149646e664b106dbc631d79",
+          "sha256": "f36f8f82047c0476e5d775d48ae33dba3a58091739003981e1c85ff76cd3c725",
+          "sha1": "f289436a88f3cdd43a3fca4eb823625618b7cc73",
+          "md5": "b9d118a473470c3122d1006db8c9c6c5"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.16.0"
+          }
+        },
+        {
+          "group": "com.google.android.flexbox",
+          "module": "flexbox",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-auth",
+          "version": {
+            "requires": "21.2.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "io.airbridge",
+          "module": "sdk-android",
+          "version": {
+            "requires": "4.6.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.android.billingclient",
+          "module": "billing-ktx",
+          "version": {
+            "requires": "8.0.0"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-bom",
+          "version": {
+            "requires": "32.2.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-analytics"
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-messaging"
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-auth"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-script-runtime"
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-splashscreen",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-script-runtime",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "games-1.0.11.aar",
+          "url": "games-1.0.11.aar",
+          "size": 308659,
+          "sha512": "044d07bf50c5104663067ff32dd5797faab2af61043f1b6404d174d8ce50d3d0350b7616dce710d6c04ea9933a7e26d5ef9befa6a149646e664b106dbc631d79",
+          "sha256": "f36f8f82047c0476e5d775d48ae33dba3a58091739003981e1c85ff76cd3c725",
+          "sha1": "f289436a88f3cdd43a3fca4eb823625618b7cc73",
+          "md5": "b9d118a473470c3122d1006db8c9c6c5"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "games-1.0.11-sources.jar",
+          "url": "games-1.0.11-sources.jar",
+          "size": 33546,
+          "sha512": "8b5c14e3308f9b30b2d9c56fc85da8f2c32170442ef02c1c8011e43cdef6f8685a06cb6227e5698f7df745df0db2990ff549e15621d6d5856eb74489c1ae6b78",
+          "sha256": "790a4fc547971c6a23a2677830639bdad428b12feed101ecc021ef158c67fb73",
+          "sha1": "5ca769cd39aca93178f4491bde15a4e38980b08f",
+          "md5": "d5ee810992167e275554f9379e7223a8"
+        }
+      ]
+    }
+  ]
+}
